@@ -23,7 +23,50 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+nav.navbar {
+  justify-content: center;
+  text-align: center;
+  /* text-decoration: none; */
+  background-color: cornsilk;
+}
+.signindiv {
+  text-align: center;
+}
+.createpostmain {
+  border: 1px solid white;
+  width: 40%;
+  margin: 5% 0px;
+  text-align: center;
+}
+.titlepost {
+  margin: 30px 0px;
+}
+textarea.textarea {
+  width: -webkit-fill-available;
+}
+.homemaindiv {
+  text-align: center;
+  font-family: initial;
+  text-transform: capitalize;
+  width: 50%;
+  margin: 0 25%;
+  border: 1px solid white;
+  margin-top: 2%;
+  border-radius: 25px;
+}
+.hometitle {
+  background-color: dimgrey;
+  color: orange;
+  /* width: auto; */
+}
+.homepost {
+  font-family: system-ui;
+  background-color: darkslategrey;
+}
+.homeauthor {
+  font-family: cursive;
+  color: burlywood;
+}
 .App-link {
   color: #61dafb;
 }
